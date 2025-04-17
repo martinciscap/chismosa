@@ -1,0 +1,11 @@
+# Ignorar archivos de resultados
+results_*.txt
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Ignorar ejecutables de PyInstaller
+dist/
+build/
+*.spec
