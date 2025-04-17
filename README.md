@@ -16,7 +16,6 @@
 - Simple keystroke logging using `pynput`
 - Logs stored in a local `.txt` file
 - Works on **Windows 10** and **Windows 11**
-- Can be compiled into a hidden executable (with `pyinstaller`)
 
 ## 📦 Requirements
 
@@ -28,15 +27,12 @@ pip install pynput
 
 ▶️ Usage
 
-python chismosa.py
+python test_all.py
 
-## To generate an executable (Windows):
-
-pip install pyinstaller
-pyinstaller --noconsole --onefile chismosa.py
+#yup(test_all.py) cause now the idea is to simule that there is a testing running up from console
 
 📄 Output
-All keystrokes are stored in registro_teclas.txt in the same directory.
+All keystrokes are stored in results_datetime.txt in the same directory.
 
 🧠 Why "Chismosa"?
 In Spanish, chismosa means someone who likes to gossip or knows everything about everyone — just like this script 👀
